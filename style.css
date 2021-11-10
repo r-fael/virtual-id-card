@@ -10,6 +10,8 @@ body {
 body {
   --gray: hsl(240, 9%, 89%);
   --black: hsl(240, 6%, 13%);
+  --background: rgb(38, 38, 43);
+  background-color: var(--background);
   display: grid;
   place-items: center;
   font-family: 'Roboto', sans-serif;
