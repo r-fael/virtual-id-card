@@ -19,9 +19,10 @@ body {
 }
 
 main{
-  background: url(images/background.svg);
-  width: 375px;
-  height: 813px;
+  background: url(images/background.svg) no-repeat center/cover;
+  width: 100vw;
+  min-height: 812px;
+  height: 100vh;
 }
 
 .container{
@@ -77,4 +78,12 @@ ul{
   display: flex;
   gap: 0.5rem;
   justify-content: center;
+}
+
+@media (min-width: 375px){
+  main{
+    background: url(images/background.svg) no-repeat;
+    width: 375px;
+    height: 813px;
+  }  
 }
